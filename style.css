@@ -1,0 +1,79 @@
+.wrapper {
+  background: url(img/erMortis.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  margin: 0;
+}
+
+/* меню */
+.header {
+  /* в рядок */
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.menu {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 20px 30px;
+}
+.menu a:hover {
+  color: violet;
+}
+.menu a.active {
+  color: #6a0aab;
+}
+
+.about {
+  color: blue;
+  font-size: 40px;
+}
+
+/* Товари */
+.tovars {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.tovars ul {
+  list-style: none;
+  padding: 0;
+}
+.tovars-title {
+  margin-top: 0;
+}
+.tovars h3 {
+  color: grey;
+  font-weight: bold;
+}
+
+.price {
+  color: red;
+}
+
+/* Контакти */
+.contact {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.main-title {
+  color: green;
+  font-size: 150px;
+}
